@@ -1,0 +1,14 @@
+{
+  "name": "requesttour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "requestTour.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/pubsub": "^3.1.0",
+    "aws-sdk": "2.1180.0",
+    "axios": "0.27.2"
+  }
+}
