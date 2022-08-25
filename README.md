@@ -32,7 +32,7 @@ The final project of CSCI 5410 - Serverless Data Processing of MACS at Dalhousie
     - Amazon DynamoDB : This database service is used to store user credentials like first name, Last name, email, security questions and answers.
     - Amazon API Gateway : This service is used to call the lambda functions that create the customer ID and store data to DynamoDB directly from React.js using REST API.
     - GCP Firestore : This service is used is used to store the email of the user and the secret key provided by them for the purpose of Caesar Cipher.
-    - React js, HTML , CSS, Material UI : To create the front-end user regiustration forms
+    - React js, HTML , CSS, Material UI : To create the front-end user registration forms
   - Report Generation Module
     - Amazon CloudTrail : The user logs are maintained the number of logins, registrations and other login details are maintained by integrating AWS CloudTrail. A trail is created that monitors the sign-in and sign-up activities that take place in AWS Cognito
     - Amazon CloudWatch : Reports of Logs from lambda functions, dynamodb and other services can be got from AWS CloudWatch.
